@@ -7,7 +7,7 @@ let video;
 let classifier;
 // STEP 1: Load the model!
 function preload(){
-  classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/SPbWsQhwv/model.json')
+  classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/NL6pjfTZQ/model.json')
 }
 function setup() {
   createCanvas(640, 520);
